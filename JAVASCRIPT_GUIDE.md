@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-### Fundamentals
+### Fundamentals [Back to Top](#top)
 - [Variables & Data Types](#variables--data-types)
 - [Operators](#operators)
 - [Control Structures](#control-structures)
@@ -15,7 +15,7 @@
 - [Hoisting](#hoisting)
 - [Scope & Closures](#scope--closures)
 
-### Intermediate Concepts
+### Intermediate Concepts [Back to Top](#top)
 - [Objects & Arrays](#objects--arrays)
 - [String Manipulation](#string-manipulation)
 - [Methods](#methods)
@@ -26,20 +26,20 @@
 - [Error Handling](#error-handling)
 - [Asynchronous JavaScript](#asynchronous-javascript)
 
-### Advanced Concepts
+### Advanced Concepts [Back to Top](#top)
 - [Classes & Prototypes](#classes--prototypes)
 - [Higher-Order Functions](#higher-order-functions)
 - [Destructuring](#destructuring)
 - [Template Literals](#template-literals)
 - [Promises & Async/Await](#promises--asyncawait)
 
-### DOM & Browser APIs
+### DOM & Browser APIs [Back to Top](#top)
 - [DOM Manipulation](#dom-manipulation)
 - [Event Handling](#event-handling)
 - [Local Storage & Session Storage](#local-storage--session-storage)
 - [Fetch API](#fetch-api)
 
-### Security & Best Practices
+### Security & Best Practices [Back to Top](#top)
 - [Password Hashing & Salting](#password-hashing--salting)
 - [XSS Prevention](#xss-prevention)
 - [CSRF Prevention](#csrf-prevention)
@@ -49,18 +49,18 @@
 - [Secure Data Storage](#secure-data-storage)
 - [Authentication & JWT](#authentication--jwt)
 
-### Tools & CLI
+### Tools & CLI [Back to Top](#top)
 - [Node.js & npm](#nodejs--npm)
 - [Common CLI Commands](#common-cli-commands)
 
-### Quiz
+### Quiz [Back to Top](#top)
 - [All Quiz Questions & Answers](#all-quiz-questions--answers)
 
 ---
 
 ## Fundamentals [↑ Back to Top](#top)
 
-### Variables & Data Types
+### Variables & Data Types [↑ Back to Top](#top)
 
 #### Explanation
 Variables are containers for storing data values. JavaScript has different data types including primitives (string, number, boolean, null, undefined, symbol, bigint) and objects (arrays, objects, functions).
@@ -145,7 +145,7 @@ A: No, you cannot reassign, but if it's an object, you can modify its properties
 
 ---
 
-### Operators
+### Operators [↑ Back to Top](#top)
 
 #### Explanation
 Operators are symbols or keywords that perform operations on variables and values. They include arithmetic, comparison, logical, assignment, and more.
@@ -245,7 +245,7 @@ A: It unpacks elements of an array or properties of an object into a new array o
 
 ---
 
-### Control Structures
+### Control Structures [Back to Top](#top)
 
 #### Explanation
 Control structures allow you to execute different code based on certain conditions and to repeat code blocks multiple times.
@@ -382,7 +382,7 @@ A: To prevent fall-through (executing subsequent cases).
 
 ---
 
-### Functions
+### Functions [Back to Top](#top)
 
 #### Explanation
 Functions are reusable blocks of code that perform specific tasks. They help organize code, reduce repetition, and improve maintainability.
@@ -486,7 +486,7 @@ A: To accept an indefinite number of arguments as an array (...args).
 
 ---
 
-### Parameters
+### Parameters [Back to Top](#top)
 
 #### Explanation
 Parameters are variables that define what information a function expects to receive. JavaScript supports several parameter types: positional parameters, default parameters, rest parameters, and destructured parameters.
@@ -705,7 +705,7 @@ A: `arguments` is array-like but not a true array; rest parameters are actual ar
 
 ---
 
-### Truthy & Falsy
+### Truthy & Falsy [Back to Top](#top)
 
 #### Explanation
 In JavaScript, values are evaluated as either truthy or falsy when used in boolean contexts. Truthy values are those that evaluate to `true` in a boolean context, while falsy values evaluate to `false`.
@@ -880,7 +880,7 @@ A: Use `"property" in obj` or `obj.hasOwnProperty("property")` instead of checki
 
 ---
 
-### Type Coercion & Type Checking
+### Type Coercion & Type Checking [Back to Top](#top)
 
 #### Explanation
 Type coercion is JavaScript's automatic or implicit conversion of values from one type to another. Type checking is explicitly determining or comparing data types.
@@ -1066,7 +1066,7 @@ A: No, `NaN === NaN` is false. Use `Number.isNaN()` or `Object.is()` to check fo
 
 ---
 
-### Hoisting
+### Hoisting [Back to Top](#top)
 
 #### Explanation
 Hoisting is JavaScript's behavior of moving declarations to the top of their scope before code execution. Function declarations and variable declarations are hoisted, but in different ways.
@@ -1225,7 +1225,7 @@ A: var has confusing hoisting behavior and function scope. `let` and `const` are
 
 ---
 
-### Scope & Closures
+### Scope & Closures [Back to Top](#top)
 
 #### Explanation
 Scope determines where variables can be accessed. JavaScript has function scope and block scope. Closures are functions that have access to variables from their outer scope.
@@ -1365,7 +1365,7 @@ A: Using closures - define variables in an outer function and return inner funct
 
 ## Intermediate Concepts [↑ Back to Top](#top)
 
-### Objects & Arrays
+### Objects & Arrays [Back to Top](#top)
 
 #### Explanation
 Objects are collections of key-value pairs. Arrays are ordered collections of values. Both are essential for organizing and manipulating data in JavaScript.
@@ -1568,7 +1568,7 @@ A: Using dot notation (obj.level1.level2) or bracket notation (obj["level1"]["le
 
 ---
 
-### String Manipulation
+### String Manipulation [Back to Top](#top)
 
 #### Explanation
 Strings are sequences of characters. JavaScript provides many methods to create, analyze, and transform strings.
@@ -1724,7 +1724,7 @@ A: String interpolation using ${expression} and multi-line strings.
 
 ---
 
-### Methods
+### Methods [Back to Top](#top)
 
 #### Explanation
 Methods are functions that belong to objects. They are actions that objects can perform. JavaScript has built-in methods for different data types (strings, arrays, objects) and you can create custom methods.
@@ -2037,7 +2037,7 @@ A: Not recommended because arrow functions don't have their own `this` - they in
 
 ---
 
-### Callback Functions
+### Callback Functions [Back to Top](#top)
 
 #### Explanation
 A callback is a function passed as an argument to another function, which is then invoked inside that function. Callbacks are fundamental to JavaScript's asynchronous programming model.
@@ -2177,7 +2177,7 @@ A: No, callbacks create their own execution context. Use Promises or async/await
 
 ---
 
-### IIFE - Immediately Invoked Function Expression
+### IIFE - Immediately Invoked Function Expression [Back to Top](#top)
 
 #### Explanation
 An IIFE (Immediately Invoked Function Expression) is a function that is defined and executed immediately. It's commonly used to create a new scope and avoid polluting the global namespace.
@@ -2346,7 +2346,7 @@ A: Less common now with ES6 modules, but still used for legacy code and creating
 
 ---
 
-### Event Loop & Call Stack
+### Event Loop & Call Stack [Back to Top](#top)
 
 #### Explanation
 The Event Loop is the mechanism that JavaScript uses to handle asynchronous operations. The Call Stack keeps track of function calls, and the Event Loop manages callbacks when the stack is empty.
@@ -2553,7 +2553,7 @@ A: Yes, they go into the macrotask queue and execute one at a time when the stac
 
 ---
 
-### Regular Expressions
+### Regular Expressions [Back to Top](#top)
 
 #### Explanation
 Regular expressions (regex) are patterns used to match character combinations in strings. They're powerful for validation, searching, and replacing text.
@@ -2726,7 +2726,7 @@ A: `(?=...)` is positive lookahead; `(?!...)` is negative lookahead; they assert
 
 ---
 
-### Error Handling
+### Error Handling [Back to Top](#top)
 
 #### Explanation
 Error handling allows you to gracefully manage errors that occur during program execution, preventing crashes and providing meaningful feedback.
@@ -2864,7 +2864,7 @@ A: Extend the Error class and override the constructor and name property.
 
 ---
 
-### Asynchronous JavaScript
+### Asynchronous JavaScript [Back to Top](#top)
 
 #### Explanation
 Asynchronous programming allows operations to run without blocking the main thread. JavaScript uses callbacks, promises, and async/await for asynchronous operations.
@@ -3070,7 +3070,7 @@ A: It's syntactic sugar for promises, allowing you to write asynchronous code li
 
 ## Advanced Concepts [↑ Back to Top](#top)
 
-### Classes & Prototypes
+### Classes & Prototypes [Back to Top](#top)
 
 #### Explanation
 Classes are blueprints for creating objects. Prototypes are the mechanism behind JavaScript's inheritance model.
@@ -3245,7 +3245,7 @@ A: Own properties are directly on the object; prototype properties are inherited
 
 ---
 
-### Higher-Order Functions
+### Higher-Order Functions [Back to Top](#top)
 
 #### Explanation
 Higher-order functions are functions that take functions as arguments or return functions. They enable functional programming patterns.
@@ -3372,7 +3372,7 @@ A: To combine simple functions into more complex operations while keeping code r
 
 ---
 
-### Destructuring
+### Destructuring [Back to Top](#top)
 
 #### Explanation
 Destructuring is a convenient way to extract values from arrays or properties from objects into distinct variables.
@@ -3504,7 +3504,7 @@ A: Yes, using nested patterns: `const { user: { name } } = obj`
 
 ---
 
-### Template Literals
+### Template Literals [Back to Top](#top)
 
 #### Explanation
 Template literals are string literals allowing embedded expressions and multi-line strings, using backticks instead of quotes.
@@ -3611,7 +3611,7 @@ A: Yes, any JavaScript expression can go inside `${}`: `${functionCall()}`, `${o
 
 ---
 
-### Promises & Async/Await
+### Promises & Async/Await [Back to Top](#top)
 
 *(Covered in detail under [Asynchronous JavaScript](#asynchronous-javascript), but here's additional advanced patterns)*
 
@@ -3733,7 +3733,7 @@ A: Only in top-level modules (modern JS) or within async functions.
 
 ## DOM & Browser APIs [↑ Back to Top](#top)
 
-### DOM Manipulation
+### DOM Manipulation [Back to Top](#top)
 
 #### Explanation
 The Document Object Model (DOM) represents the HTML structure as a tree. You can manipulate it using JavaScript to change page content dynamically.
@@ -3876,7 +3876,7 @@ A: Provides methods to add, remove, toggle, and check classes without replacing 
 
 ---
 
-### Event Handling
+### Event Handling [Back to Top](#top)
 
 #### Explanation
 Events are user interactions (clicks, typing, scrolling) or browser events. You can respond to them with event listeners.
@@ -4032,7 +4032,7 @@ A: Adding a single event listener to a parent element instead of individual list
 
 ---
 
-### Local Storage & Session Storage
+### Local Storage & Session Storage [Back to Top](#top)
 
 #### Explanation
 Web Storage allows you to store data on the client side persistently (LocalStorage) or temporarily (SessionStorage).
@@ -4173,7 +4173,7 @@ A: Use localStorage.clear() to remove all items.
 
 ---
 
-### Fetch API
+### Fetch API [Back to Top](#top)
 
 #### Explanation
 The Fetch API is used to make HTTP requests to servers and retrieve data asynchronously.
@@ -4368,7 +4368,7 @@ A: Set `body: JSON.stringify(data)` and header `"Content-Type": "application/jso
 
 ## Security & Best Practices [↑ Back to Top](#top)
 
-### Password Hashing & Salting
+### Password Hashing & Salting [Back to Top](#top)
 
 #### Explanation
 Hashing is a one-way process that converts passwords into fixed-length strings. Salting adds random data to the hash to prevent rainbow table attacks. Never store plain text passwords.
@@ -4523,7 +4523,7 @@ A: For bcrypt, the salt is embedded in the hash. For PBKDF2, yes, store salt (it
 
 ---
 
-### XSS Prevention
+### XSS Prevention [Back to Top](#top)
 
 #### Explanation
 Cross-Site Scripting (XSS) is an attack where malicious scripts are injected into web pages. There are three types: Stored, Reflected, and DOM-based.
@@ -4681,7 +4681,7 @@ A: Yes, if user input is displayed without sanitization.
 
 ---
 
-### CSRF Prevention
+### CSRF Prevention [Back to Top](#top)
 
 #### Explanation
 Cross-Site Request Forgery (CSRF) is an attack where a malicious site tricks users into performing unwanted actions on another site they're logged into.
@@ -4838,7 +4838,7 @@ A: No, any state-changing request (POST, PUT, DELETE) should be protected.
 
 ---
 
-### CORS & Security Headers
+### CORS & Security Headers [Back to Top](#top)
 
 #### Explanation
 CORS (Cross-Origin Resource Sharing) controls which sites can access your APIs. Security headers protect against various attacks.
@@ -4982,7 +4982,7 @@ A: No, CORS is a browser security feature. Backend can access any API.
 
 ---
 
-### Input Validation & Sanitization
+### Input Validation & Sanitization [Back to Top](#top)
 
 #### Explanation
 Validation checks that input meets requirements. Sanitization removes/escapes dangerous characters to prevent injection attacks.
@@ -5158,7 +5158,7 @@ A: `<`, `>`, `"`, `'`, `&`, `/`, `;`, `--`, etc. (depends on context).
 
 ---
 
-### SQL Injection Prevention
+### SQL Injection Prevention [Back to Top](#top)
 
 #### Explanation
 SQL Injection is an attack where malicious SQL code is inserted into queries. Always use parameterized queries.
@@ -5285,7 +5285,7 @@ A: Never, always use parameters or an ORM.
 
 ---
 
-### Secure Data Storage
+### Secure Data Storage [Back to Top](#top)
 
 #### Explanation
 How and where you store sensitive data determines security. Never store secrets in code or browsers.
@@ -5436,7 +5436,7 @@ A: To prevent committing .env files and other sensitive files to version control
 
 ---
 
-### Authentication & JWT
+### Authentication & JWT [Back to Top](#top)
 
 #### Explanation
 Authentication verifies who a user is. JWT (JSON Web Tokens) is a secure way to transmit authentication information.
@@ -5660,7 +5660,7 @@ A: No, they're not encrypted. Only put non-sensitive identifying information in 
 
 ## Tools & CLI [↑ Back to Top](#top)
 
-### Node.js & npm
+### Node.js & npm [Back to Top](#top)
 
 #### Explanation
 Node.js is a JavaScript runtime environment that runs JavaScript outside browsers. npm (Node Package Manager) manages JavaScript packages and dependencies.
@@ -5791,7 +5791,7 @@ A: Use `npm install package@version` or specify in package.json.
 
 ---
 
-### Common JavaScript CLI Commands
+### Common JavaScript CLI Commands [Back to Top](#top)
 
 #### Node.js Commands
 ```bash
@@ -5954,7 +5954,7 @@ A: Executes npm packages without installing them globally, useful for running to
 
 ## Index & Quick Reference [↑ Back to Top](#top)
 
-### By Difficulty Level
+### By Difficulty Level [Back to Top](#top)
 
 **Beginner Topics:**
 - Variables & Data Types
@@ -5977,7 +5977,7 @@ A: Executes npm packages without installing them globally, useful for running to
 - Regular Expressions
 - Destructuring
 
-### By Category
+### By Category [Back to Top](#top)
 
 **Core Language:**
 - Variables & Data Types
@@ -6017,10 +6017,10 @@ A: Executes npm packages without installing them globally, useful for running to
 
 <!-- Practical Implementation: Back to Top Arrow
 
-### Overview
+### Overview [Back to Top](#top)
 A "Back to Top" button is a common UX feature that helps users quickly navigate to the top of long pages. It appears as the user scrolls down and smoothly scrolls back to the top when clicked.
 
-### HTML Structure
+### HTML Structure [Back to Top](#top)
 ```html
 <!-- Add this button element to your page, typically before closing </body> -- >
 <button id="backToTopBtn" class="back-to-top" title="Go to top">
@@ -6028,7 +6028,7 @@ A "Back to Top" button is a common UX feature that helps users quickly navigate 
 </button>
 ```
 
-### CSS Styling
+### CSS Styling [Back to Top](#top)
 ```css
 /* Back to Top Button Styling */
 .back-to-top {
@@ -6069,7 +6069,7 @@ A "Back to Top" button is a common UX feature that helps users quickly navigate 
 }
 ```
 
-### JavaScript Implementation
+### JavaScript Implementation [Back to Top](#top)
 
 **Method 1: Simple Implementation**
 ```javascript
@@ -6160,7 +6160,7 @@ backToTopBtn.addEventListener("click", () => {
 });
 ```
 
-### How It Works
+### How It Works [Back to Top](#top)
 
 1. **HTML Button**: A fixed-position button is added to the page
 2. **CSS Styling**: 
@@ -6174,7 +6174,7 @@ backToTopBtn.addEventListener("click", () => {
    - Hides button when near the top
    - Scrolls smoothly to top when clicked
 
-### Where It's Used
+### Where It's Used [Back to Top](#top)
 - Long-form articles and documentation
 - E-commerce product pages
 - Blog posts with extensive content
@@ -6182,14 +6182,14 @@ backToTopBtn.addEventListener("click", () => {
 - Tutorial pages
 - Any page with significant scrollable content
 
-### Purpose
+### Purpose [Back to Top](#top)
 To improve user experience by:
 - Reducing scroll fatigue on long pages
 - Providing quick navigation to page top
 - Improving accessibility
 - Enhancing visual feedback
 
-### Quiz Questions & Answers
+### Quiz Questions & Answers [Back to Top](#top)
 
 **Q1: Why use `position: fixed` for the back-to-top button?**
 A: Fixed positioning keeps the button visible at a constant position on the screen, even while scrolling.
@@ -6206,7 +6206,7 @@ A: It limits how often the scroll event handler runs, improving performance by r
 **Q5: What's the advantage of using requestAnimationFrame over setInterval?**
 A: requestAnimationFrame syncs with the browser's repaint cycle, resulting in smoother animations and better performance.
 
-### Complete Example
+### Complete Example [Back to Top](#top)
 Save this as `index.html` to see the back-to-top button in action:
 
 ```html
@@ -6332,7 +6332,7 @@ Save this as `index.html` to see the back-to-top button in action:
 
 ## All Quiz Questions & Answers [↑ Back to Top](#top)
 
-### Fundamentals
+### Fundamentals [Back to Top](#top)
 
 #### Variables & Data Types
 **Q1: What's the difference between `var`, `let`, and `const`?**
@@ -6478,7 +6478,7 @@ A: Closures keep references to outer variables in memory, which can cause memory
 **Q5: How do you use closures for data privacy?**
 A: Return an object with methods that access private variables in the closure, like the module pattern.
 
-### Intermediate Concepts
+### Intermediate Concepts [Back to Top](#top)
 
 #### Objects & Arrays
 **Q1: How do you check if an object has a property?**
@@ -6624,7 +6624,7 @@ A: Yes, async functions return Promises, and you can await Promises inside async
 **Q5: What's the purpose of Promise.all()?**
 A: It waits for all promises to resolve and returns an array of results; fails if any promise rejects.
 
-### Advanced Concepts
+### Advanced Concepts [Back to Top](#top)
 
 #### Classes & Prototypes
 **Q1: What's the difference between classical and prototypal inheritance?**
@@ -6706,7 +6706,7 @@ A: Yes, `await 42` immediately returns 42. This makes mixing sync and async code
 **Q5: Is async/await just syntactic sugar for Promises?**
 A: Essentially yes, but it reads like synchronous code and has better error handling with try/catch.
 
-### DOM & Browser APIs
+### DOM & Browser APIs [Back to Top](#top)
 
 #### DOM Manipulation
 **Q1: What's the difference between `querySelector` and `getElementById`?**
@@ -6772,7 +6772,7 @@ A: Only if the server allows CORS. Otherwise, the browser blocks the request.
 **Q5: How do you handle fetch errors?**
 A: Fetch rejects on network error, not HTTP error status. Check `response.ok` or `response.status`.
 
-### Security & Best Practices
+### Security & Best Practices [Back to Top](#top)
 
 #### Password Hashing & Salting
 **Q1: Why shouldn't you store plain text passwords?**
