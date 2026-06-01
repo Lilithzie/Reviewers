@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-### Fundamentals [Back to Top](#top)
+### Fundamentals
 - [Variables & Data Types](#variables--data-types)
 - [Operators](#operators)
 - [Control Structures](#control-structures)
@@ -15,7 +15,7 @@
 - [Hoisting](#hoisting)
 - [Scope & Closures](#scope--closures)
 
-### Intermediate Concepts [Back to Top](#top)
+### Intermediate Concepts 
 - [Objects & Arrays](#objects--arrays)
 - [String Manipulation](#string-manipulation)
 - [Methods](#methods)
@@ -26,20 +26,20 @@
 - [Error Handling](#error-handling)
 - [Asynchronous JavaScript](#asynchronous-javascript)
 
-### Advanced Concepts [Back to Top](#top)
+### Advanced Concepts 
 - [Classes & Prototypes](#classes--prototypes)
 - [Higher-Order Functions](#higher-order-functions)
 - [Destructuring](#destructuring)
 - [Template Literals](#template-literals)
 - [Promises & Async/Await](#promises--asyncawait)
 
-### DOM & Browser APIs [Back to Top](#top)
+### DOM & Browser APIs 
 - [DOM Manipulation](#dom-manipulation)
 - [Event Handling](#event-handling)
 - [Local Storage & Session Storage](#local-storage--session-storage)
 - [Fetch API](#fetch-api)
 
-### Security & Best Practices [Back to Top](#top)
+### Security & Best Practices 
 - [Password Hashing & Salting](#password-hashing--salting)
 - [XSS Prevention](#xss-prevention)
 - [CSRF Prevention](#csrf-prevention)
@@ -49,7 +49,7 @@
 - [Secure Data Storage](#secure-data-storage)
 - [Authentication & JWT](#authentication--jwt)
 
-### Tools & CLI [Back to Top](#top)
+### Tools & CLI 
 - [Node.js & npm](#nodejs--npm)
 - [Common CLI Commands](#common-cli-commands)
 
