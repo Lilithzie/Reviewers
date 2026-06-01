@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 # JavaScript Complete Guide & Reviewer
 
 ## Table of Contents
@@ -56,7 +58,7 @@
 
 ---
 
-## Fundamentals
+## Fundamentals [↑ Back to Top](#top)
 
 ### Variables & Data Types
 
@@ -1361,7 +1363,7 @@ A: Using closures - define variables in an outer function and return inner funct
 
 ---
 
-## Intermediate Concepts
+## Intermediate Concepts [↑ Back to Top](#top)
 
 ### Objects & Arrays
 
@@ -3066,7 +3068,7 @@ A: It's syntactic sugar for promises, allowing you to write asynchronous code li
 
 ---
 
-## Advanced Concepts
+## Advanced Concepts [↑ Back to Top](#top)
 
 ### Classes & Prototypes
 
@@ -3729,7 +3731,7 @@ A: Only in top-level modules (modern JS) or within async functions.
 
 ---
 
-## DOM & Browser APIs
+## DOM & Browser APIs [↑ Back to Top](#top)
 
 ### DOM Manipulation
 
@@ -4364,7 +4366,7 @@ A: Set `body: JSON.stringify(data)` and header `"Content-Type": "application/jso
 
 ---
 
-## Security & Best Practices
+## Security & Best Practices [↑ Back to Top](#top)
 
 ### Password Hashing & Salting
 
@@ -5656,7 +5658,7 @@ A: No, they're not encrypted. Only put non-sensitive identifying information in 
 
 ---
 
-## Tools & CLI
+## Tools & CLI [↑ Back to Top](#top)
 
 ### Node.js & npm
 
@@ -5950,7 +5952,7 @@ A: Executes npm packages without installing them globally, useful for running to
 
 ---
 
-## Index & Quick Reference
+## Index & Quick Reference [↑ Back to Top](#top)
 
 ### By Difficulty Level
 
@@ -6013,14 +6015,14 @@ A: Executes npm packages without installing them globally, useful for running to
 
 ---
 
-## Practical Implementation: Back to Top Arrow
+<!-- Practical Implementation: Back to Top Arrow
 
 ### Overview
 A "Back to Top" button is a common UX feature that helps users quickly navigate to the top of long pages. It appears as the user scrolls down and smoothly scrolls back to the top when clicked.
 
 ### HTML Structure
 ```html
-<!-- Add this button element to your page, typically before closing </body> -->
+<!-- Add this button element to your page, typically before closing </body> -- >
 <button id="backToTopBtn" class="back-to-top" title="Go to top">
   ↑ Back to Top
 </button>
@@ -6297,7 +6299,7 @@ Save this as `index.html` to see the back-to-top button in action:
     </section>
   </main>
   
-  <!-- Back to Top Button -->
+  <!-- Back to Top Button -- >
   <button id="backToTopBtn" class="back-to-top" title="Go to top">
     ↑ Back to Top
   </button>
@@ -6324,9 +6326,11 @@ Save this as `index.html` to see the back-to-top button in action:
 </html>
 ```
 
+-->
+
 ---
 
-## All Quiz Questions & Answers
+## All Quiz Questions & Answers [↑ Back to Top](#top)
 
 ### Fundamentals
 
@@ -6898,26 +6902,9 @@ A: Access tokens are short-lived for API requests; refresh tokens are long-lived
 **Q5: Should JWT tokens contain sensitive data?**
 A: No, they're not encrypted. Only put non-sensitive identifying information in them.
 
-### Practical Implementation: Back to Top Arrow
-
-**Q1: Why use `position: fixed` for the back-to-top button?**
-A: Fixed positioning keeps the button visible at a constant position on the screen, even while scrolling.
-
-**Q2: What does the `show` class do?**
-A: It changes the opacity from 0 to 1 and visibility from hidden to visible, making the button appear.
-
-**Q3: How do you create a smooth scroll to the top?**
-A: Use `window.scrollTo({ top: 0, behavior: "smooth" })` - the `behavior: "smooth"` property enables the smooth animation.
-
-**Q4: Why is throttling useful in the scroll event?**
-A: It limits how often the scroll event handler runs, improving performance by reducing unnecessary function calls.
-
-**Q5: What's the advantage of using requestAnimationFrame over setInterval?**
-A: requestAnimationFrame syncs with the browser's repaint cycle, resulting in smoother animations and better performance.
-
 ---
 
-## Conclusion
+## Conclusion [↑ Back to Top](#top)
 
 This guide covers essential JavaScript concepts from fundamentals to advanced topics. Regular practice with the provided examples and quiz questions will strengthen your understanding. Keep building projects and experimenting with code to master JavaScript development!
 
